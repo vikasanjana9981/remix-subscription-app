@@ -2,7 +2,7 @@
 apex-feat-staging-eb89
 
 @aws
-runtime nodejs18.x
+runtime nodejs20.x
 # concurrency 1
 # memory 1152
 # profile default
@@ -13,10 +13,6 @@ runtime nodejs18.x
 /*
   method any
   src server
-
-@plugins
-plugin-remix
-  src plugin-remix.js
 
 @static
 
