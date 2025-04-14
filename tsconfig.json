@@ -1,6 +1,6 @@
 {
-  "exclude": ["./cypress", "cypress.config.js"],
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "cypress.config.js"],
+  "exclude": ["./cypress", "cypress.config.ts"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx", "cypress.config.ts"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2020"],
     "types": ["vitest/globals"],
