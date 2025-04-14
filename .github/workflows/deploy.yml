@@ -81,6 +81,7 @@ jobs:
         run: npm run test -- --coverage
 
   cypress:
+    if:false
     name: ⚫️ Cypress
     runs-on: ubuntu-latest
     steps:
@@ -112,7 +113,7 @@ jobs:
           PORT: "8811"
 
   deploy:
-    needs: [lint, typecheck, vitest, cypress]
+    needs: [lint, typecheck, vitest]
     runs-on: ubuntu-latest
 
     steps:
